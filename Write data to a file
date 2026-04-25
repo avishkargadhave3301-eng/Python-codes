@@ -1,0 +1,7 @@
+def write_file():
+    f = open("sample.txt", "w")
+    f.write("Hello, this is file handling in Python.\n")
+    f.write("This is second line.")
+    f.close()
+
+write_file()
