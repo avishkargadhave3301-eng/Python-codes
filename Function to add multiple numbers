@@ -1,0 +1,7 @@
+def add_multiple(*numbers):
+    total = 0
+    for num in numbers:
+        total += num
+    return total
+
+print("Sum =", add_multiple(1, 2, 3, 4, 5))
