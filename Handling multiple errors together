@@ -1,0 +1,9 @@
+def multiple_errors():
+    try:
+        num = int(input("Enter number: "))
+        result = 10 / num
+        print("Result =", result)
+    except (ValueError, ZeroDivisionError):
+        print("Invalid input or division by zero!")
+
+multiple_errors()
