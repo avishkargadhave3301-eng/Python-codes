@@ -1,0 +1,6 @@
+def append_file():
+    f = open("sample.txt", "a")
+    f.write("\nThis line is added later.")
+    f.close()
+
+append_file()
