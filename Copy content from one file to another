@@ -1,0 +1,8 @@
+def copy_file():
+    with open("sample.txt", "r") as f1:
+        data = f1.read()
+    
+    with open("copy.txt", "w") as f2:
+        f2.write(data)
+
+copy_file()
